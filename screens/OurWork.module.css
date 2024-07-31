@@ -1,0 +1,57 @@
+.workMainContainer{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 15px;
+    background: #000;
+    padding: 150px 0;
+    
+    
+}
+
+.workTitle,.workSubTitle{
+    color: #fff;
+    text-align: center;
+}
+
+.workTitle{
+    font-size: 20px;
+    color: rgb(87, 0, 217);
+    margin-top: 50px;
+}
+
+.workSubTitle{
+    font-size: 24px;
+    color: rgb(104, 104, 104);
+    font-weight: 500;
+}
+
+.workSubTitle b{
+    color:#fff
+}
+
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.image:hover{
+    transition: .6s;
+    opacity: 0.6;
+}
+
+@media screen and (max-width:750px){
+    .workMainContainer{
+        grid-template-columns: repeat(1, auto);
+        padding: 50px 0;
+    }
+
+    .image{
+        width: 75%;
+        height: 75%;
+        border-radius: 25px;
+    }
+}

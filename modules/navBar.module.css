@@ -1,0 +1,147 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 29%, rgba(46, 0, 116, 1) 100%);
+    color: #fff;
+}
+
+.navContainer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    margin-left: 2em;
+    padding: 5px;
+}
+
+.list a {
+    color: #858585;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.list a:hover {
+    transition: .6s;
+    color: #fff;
+}
+
+
+
+
+.navCloseBtn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    display: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    color: #fff;
+
+
+}
+
+.Ricons {
+    display: none;
+}
+
+.navBtn{
+    display: none;
+}
+
+
+
+.logoDiv img {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width:750px) {
+
+    .navCloseBtn,
+    .Ricons,.navBtn{
+        display: block;
+    }
+
+    .navContainer nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        z-index: 1000;
+        transition: .6s;
+        background: #000;
+        
+
+    }
+
+
+    .list {
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    .list a {
+        font-size: 1.5rem;
+        border-bottom: 2px solid #fff;
+        padding: 15px;
+    }
+
+    .logoDiv {
+        position: absolute;
+        left: -30px;
+        rotate: 270deg;
+        margin-left: 0;
+        font-size: 0.7rem;
+    }
+
+    .logoDiv img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .navCloseBtn {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 1.3rem;
+    }
+
+    .Ricons img {
+        margin: 1em 1em;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+
+
+    }
+}

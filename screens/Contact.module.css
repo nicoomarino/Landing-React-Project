@@ -1,0 +1,112 @@
+.contactMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(60, 0, 116, 1) 0%, rgba(0, 0, 0, 1) 26%, rgba(2, 0, 36, 1) 100%);
+}
+
+.contactTitle {
+    color: rgb(87, 0, 217);
+}
+
+.contactsTitle {
+    font-weight: 400;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.contactsTitle b {
+    color: #fff;
+}
+
+.contactMainContainer input,
+.contactMainContainer textarea {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid grey;
+    outline: none;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.inputRow {
+    display: flex;
+    margin-left: 25px;
+}
+
+.inputCol {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.mainInputs {
+    max-width: 80%;
+    color: #fff;
+
+}
+
+.textarea {
+    resize: none;
+    width: 300px;
+    height: 40px;
+
+}
+
+.label {
+    margin-top: 1.5rem;
+    color: #fff;
+
+}
+
+.contactBtn {
+    min-width: 25%;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background: rgb(87, 0, 217);
+    color: #fff;
+    cursor: pointer;
+}
+
+.contactBtn:hover {
+    transition: .6s;
+    background-color: rgb(73, 0, 182);
+}
+
+@media screen and (max-width:750px) {
+    .contactMainContainer {
+        padding: 100px 0;
+    }
+
+    .inputCol{
+        margin-right: 20px;
+    }
+
+    .inputRow {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .mainInputs {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .textarea {
+        resize: none;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .label{
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,130 @@
+body {
+    background: #000
+}
+
+
+.aboutMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+    background: rgb(42, 42, 42);
+    color: #fff;
+
+
+}
+
+.aboutSubContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutTitle {
+    font-size: 16px;
+    color: rgb(87, 0, 217);
+    ;
+}
+
+.aboutSubtitle {
+    font-size: 25px;
+    color: rgb(104, 104, 104);
+    font-weight: 500;
+}
+
+.aboutSubtitle b {
+    font-weight: 600;
+    color: #fff;
+}
+
+.eachContainer2 {
+    transform: translateY(2.1rem);
+}
+
+.eachContainer3 {
+    transform: translateY(4rem);
+}
+
+
+.eachContainer1 img,
+.eachContainer2 img,
+.eachContainer3 img {
+    width: 250px;
+    height:250px;
+    border-radius: 25px;
+    opacity: 0.8;
+    margin-right: 15px;
+}
+
+.eachContainer1 img:hover,
+.eachContainer2 img:hover,
+.eachContainer3 img:hover {
+    transition: .6s;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+.worker {
+    font-weight: bold;
+}
+
+.candidateWork {
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+}
+
+.aboutBtn {
+    padding: 13px;
+    width: 20rem;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 43%, rgba(60, 0, 116, 1) 78%);
+
+}
+
+.aboutBtn:hover {
+    transition: .6s;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(10deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 43%, rgba(60, 0, 116, 1) 95%);
+}
+
+@media screen and (max-width:750px) {
+    .aboutSubContainer {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .eachContainer1 img,
+    .eachContainer2 img,
+    .eachContainer3 img {
+        width: 65%;
+        height: 65%;
+    }
+
+    .aboutTitle {
+        font-size: 20px;
+    }
+
+    .worker {
+        font-size: 19px;
+    }
+
+    .candidateWork {
+        font-size: 17px;
+    }
+
+    .aboutBtn {
+        padding: 13px;
+        width: 13rem;
+        margin-top: 100px;
+
+    }
+}

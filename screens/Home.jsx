@@ -5,7 +5,7 @@ function Home() {
 
 
     return (
-        <main className={styles.homeMainContainer}>
+        <main id = {styles.homeanchor}className={styles.homeMainContainer}>
             <div className={styles.leftContainer}>
                 <i>Digital Agency</i>
                 <p className={styles.brandTitle}>Leading <b>digital</b><br /> <b>agency</b> dedicated to creating<br /> unforgettable <b>experiences</b> for<br /> your customers</p>

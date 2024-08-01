@@ -96,13 +96,29 @@
         flex-direction: column;
     }
 
+    .homeMainContainer p{
+        font-size: 20px;
+    }
+
+
+
     .homeBtn1,
     .homeBtn2 {
         margin-bottom: 50px;
     }
 
-    .rightContainer img{
-        width:325px ;
+    .rightContainer img {
+        width: 325px;
         height: 325px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .homeMainContainer p{
+        font-size: 17px;
+    }
+    .homeBtn1,
+    .homeBtn2 {
+        width: 125px;
     }
 }

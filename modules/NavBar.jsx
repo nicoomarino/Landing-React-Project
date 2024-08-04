@@ -13,7 +13,7 @@ function Navbar() {
 
     return (
         <header>
-            <h3 className="logo">Nex<b>Media</b></h3>
+            <h3 className="logo">Log<b>Media</b></h3>
             <nav ref={navRef}>
                 <a href="#">Home</a>
                 <a href="#">About Us</a>

@@ -37,8 +37,8 @@ const Clients = () => {
                 <div className={styles.clientsSubContainer}>
                     <img src="https://irp.cdn-website.com/md/dmtmpl/4bfca5e8-8b5b-401d-a39e-ad0621a9f362/dms3rep/multi/rapple.png" alt="" />
                     <img src="https://irp.cdn-website.com/md/dmtmpl/4bfca5e8-8b5b-401d-a39e-ad0621a9f362/dms3rep/multi/ober.png" alt="" />
-                    <img src="src/imaicons/mercadolibre.png" alt="" />
-                    <img src="src/imaicons/kfc.webp" alt="" />
+                    <img src="/imaicons/mercadolibre.png" alt="" />
+                    <img src="/imaicons/kfc.webp" alt="" />
                     <img src="https://irp.cdn-website.com/md/dmtmpl/4bfca5e8-8b5b-401d-a39e-ad0621a9f362/dms3rep/multi/microchip.png" alt="" />
                 </div>
                 <button className={styles.clientsBtn}>Learn more</button>

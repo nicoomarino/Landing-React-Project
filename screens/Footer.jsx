@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
     return (
         <div className={styles.footerMainContainer}>
-            <img src="/imaicons/logo.png" alt="logo" />
+            <img src="src/imaicons/logo.png" alt="logo" />
             <div className={styles.col1}>
                 <p><b>See us in person</b></p>
                 <p>Cabildo,Buenos Aires <br />CABA,Argentina</p>

@@ -59,6 +59,12 @@
     cursor: pointer;
 }
 
+.clientsBtn:hover{
+    transition: .6s;
+    background: rgba(255, 255, 255, 0.174);
+}
+
+
 .sliderContainer {
     width: 70%;
     margin: 0 auto;

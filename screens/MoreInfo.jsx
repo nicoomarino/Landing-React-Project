@@ -13,7 +13,7 @@ const MoreInfo = () => {
             <div className={styles.middleContainer}>
                 <span className={styles.lineV}></span>
                 <div className={styles.moreInfoMContainer}>
-                    <h2 className={styles.circleL}>NX</h2>
+                    <h2 className={styles.circleL}>LM</h2>
                     <div className={styles.txt}>
                         <ReactCurvedText className={styles.box}
                             width={300}

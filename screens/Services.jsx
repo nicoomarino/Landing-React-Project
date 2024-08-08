@@ -6,7 +6,7 @@ const Services = () => {
         <div className={styles.background}>
             <div className={styles.mainContainerServices}>
                 <div className={styles.subContainerServices}>
-                    <img src="/imaicons/dice.png" alt="dice" />
+                    <img src="src/imaicons/dice.png" alt="dice" />
                     <h2 className={styles.titleServices}>UX Design</h2>
                     <ul className={styles.listServices}>
                         <li>UI design</li>
@@ -17,7 +17,7 @@ const Services = () => {
                     </ul>
                 </div>
                 <div className={styles.subContainerServices}>
-                    <img src="/imaicons/tag.png" alt="" />
+                    <img src="src/imaicons/tag.png" alt="" />
                     <h2 className={styles.titleServices}>Branding</h2>
                     <ul className={styles.listServices}>
                         <li>UI design</li>
@@ -28,7 +28,7 @@ const Services = () => {
                     </ul>
                 </div>
                 <div className={styles.subContainerServices}>
-                    <img src="/imaicons/world.png" alt="" />
+                    <img src="src/imaicons/world.png" alt="" />
                     <h2 className={styles.titleServices}>Strategy</h2>
                     <ul className={styles.listServices}>
                         <li>UI design</li>

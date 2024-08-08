@@ -15,7 +15,7 @@ function Home() {
                 </div>
             </div>
             <div className={styles.rightContainer}>
-                <img src="/imaicons/home-img.jpeg" alt="home-image" />
+                <img src="src/imaicons/home-img.jpeg" alt="home-image" />
             </div>
         </main>
     )
